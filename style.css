@@ -56,7 +56,7 @@
 
 body {
   scroll-behavior: smooth;
-  background: #e8f2d1;
+  background: #f0dfc7;
   cursor: none;
     font-family: 'Kudryashev Headline';
   pointer-events: none;
@@ -112,7 +112,7 @@ body #loader {
   transition: transform 0.6s cubic-bezier(1, 0.885, 0.32, 1);
   transition-delay: 1.25s;
   transform-origin: bottom;
-  background: #d30808;
+  background: #fe4e01;
   transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -263,11 +263,11 @@ body.loaded::-webkit-scrollbar {
   width: 5px;
 }
 body::-webkit-scrollbar {
-  background: #d30808;
+  background: #fe4e01;
   width: 5px;
 }
 body::-webkit-scrollbar-thumb {
-  background: #d30808;
+  background: #fe4e01;
 }
 body.active {
   cursor: auto;
@@ -298,7 +298,7 @@ body.active #frame #close strong span.char:before {
   transform: translateY(0);
 }
 body.active #frame #close:hover {
-  box-shadow: 0 0 0 2px #d30808, inset 0 0 0 20px #d30808, 0 0 0 20px #eeece5, 0 0 0 22px #d30808;
+  box-shadow: 0 0 0 2px #fe4e01, inset 0 0 0 20px #fe4e01, 0 0 0 20px #eeece5, 0 0 0 22px #fe4e01;
 }
 body.active #frame #close:hover strong span.char:before {
   color: #08350e;
@@ -336,7 +336,7 @@ body #close strong.circle {
   top: 0;
 }
 body #close strong.circle span.word span.char:before {
-  color: #d30808;
+  color: #fe4e01;
 }
 body #close strong.circle span.word span.char:nth-of-type(1) {
   transform: rotate(0deg);
@@ -483,7 +483,7 @@ body #frame:before, body #frame:after {
   height: 100%;
   top: 0;
   left: -12.5%;
-  background: #d30808;
+  background: #fe4e01;
   transition: transform 1s cubic-bezier(1, 0.885, 0.32, 1);
   transition-delay: 0.25s;
   z-index: 999;
@@ -501,7 +501,7 @@ body #frame #close {
   top: 45px;
   width: 30px;
   height: 30px;
-  box-shadow: 0 0 0 2px #08350e, inset 0 0 0 #d30808, 0 0 0 20px #eeece5, 0 0 0 22px #d30808;
+  box-shadow: 0 0 0 2px #08350e, inset 0 0 0 #fe4e01, 0 0 0 20px #eeece5, 0 0 0 22px #fe4e01;
   background: #eeece5;
   border-radius: 100%;
   position: absolute;
@@ -554,7 +554,7 @@ body #frame .frame-container #penlink {
   position: absolute;
   bottom: -10px;
   text-decoration: none;
-  color: #d30808;
+  color: #fe4e01;
   font-weight: 900;
   transition: color 0.2s ease-in-out, transform 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition-delay: 0.2s;
@@ -598,7 +598,7 @@ body #frame .frame-container #penlink:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(to bottom, #d30808 50%, #a58725 50%) 50% 100%/100% 200% no-repeat;
+  background: linear-gradient(to bottom, #fe4e01 50%, #a58725 50%) 50% 100%/100% 200% no-repeat;
   left: 0;
   top: 0;
   transform: scaleY(0);
@@ -691,7 +691,7 @@ body #cursor:before, body #cursor:after {
 body #cursor.linkhover {
   border-color: transparent;
   border-width: 4px;
-  box-shadow: 0 0 0 2px #d30808;
+  box-shadow: 0 0 0 2px #fe4e01;
 }
 body #cursor.active strong.circle span.word {
   -webkit-animation-play-state: running;
@@ -741,7 +741,7 @@ background-color:#090330;
 body #wrap h1 {
   text-align: center;
   font-family: "Bogart-Semibold";
-  color: #d30808;
+  color: #fe4e01;
   font-size: 100px;
   position: relative;
   width: 100%;
@@ -764,7 +764,7 @@ body #wrap h1:before, body #wrap h1:after {
 }
 body #wrap h1:after {
   transform-origin: left;
-  background: #d30808;
+  background: #fe4e01;
   z-index: 3;
   transform: scaleX(calc(1 - (var(--progress) * 2)));
 }
@@ -1004,7 +1004,7 @@ body #wrap .panel:nth-of-type(even) .thumb p {
 body #wrap .panel .thumb {
   grid-area: 2/3/5/6;
   position: relative;overflow: hidden;
-  box-shadow: 1vw 2vw #d30808;
+  box-shadow: 1vw 2vw #fe4e01;
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;background-size:cover;
 background-repeat:no-repeat;background-position:bottom;
@@ -1017,7 +1017,7 @@ background-repeat:no-repeat;background-position:bottom;
 }
 body #wrap .panel  h3{
 position:fixed;bottom: -9vw;right: 2%; color: #eacb6500;z-index:1;
-padding:3rem 0 0 0;-webkit-text-stroke:3px#d30808; font-size: 5vw;z-index: 9; }
+padding:3rem 0 0 0;-webkit-text-stroke:3px#fe4e01; font-size: 5vw;z-index: 9; }
 body #wrap .panel .thumb p {
   position: absolute;
   width: 100%;
@@ -1103,13 +1103,13 @@ body #wrap .panel .thumb img.invert {
 body #wrap .panel .thumb img.shift {
   left: 0;
 }
-.const1, iframe{width: 100%;height: 100%;background-color: #d30808;}
+.const1, iframe{width: 100%;height: 100%;background-color: #fe4e01;}
 
 header,.text-title {position: relative;width: 100%;height: auto;  
       font-family: 'Kudryashev Headline';
 
-background-color:#97a27f;-webkit-text-stroke:1px black;color: rgba(0, 0, 0, 0);
-margin: 0; text-align: center;font-size: 10vw;}
+background-color:#f0b349;-webkit-text-stroke:1px black;color: rgba(0, 0, 0, 0.986);
+margin: 0; text-align: center;font-size: 8vw;}
 .text-title{padding: 2vw 0;}
 #social1 a img{width: 40px;display: inline;margin: 0.1rem;}
 #social1{position: fixed;top: 15px;right:2%;z-index: 9;}
